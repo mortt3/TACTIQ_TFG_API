@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\TactiqApi.csproj": {}
+    "C:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\TactiqApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\TactiqApi.csproj": {
+    "C:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\TactiqApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\TactiqApi.csproj",
+        "projectUniqueName": "C:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\TactiqApi.csproj",
         "projectName": "TactiqApi",
-        "projectPath": "c:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\TactiqApi.csproj",
+        "projectPath": "C:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\TactiqApi.csproj",
         "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\obj\\",
+        "outputPath": "C:\\Users\\jorge\\Desktop\\2DAM\\TFG\\app\\TactiqApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
