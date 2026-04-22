@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TactiqApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65f6dd57c103d211945ef62ddafbce3e4c3eb073")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cf2dc8d5ab5b9841a9f3a09cee19987df29364a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TactiqApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TactiqApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
