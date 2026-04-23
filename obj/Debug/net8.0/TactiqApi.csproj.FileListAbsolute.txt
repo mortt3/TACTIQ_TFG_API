@@ -109,3 +109,4 @@ C:\Users\jorge\Desktop\2DAM\TFG\app\TactiqApi\bin\Debug\net8.0\Microsoft.Extensi
 C:\Users\jorge\Desktop\2DAM\TFG\app\TactiqApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\jorge\Desktop\2DAM\TFG\app\TactiqApi\bin\Debug\net8.0\Npgsql.dll
 C:\Users\jorge\Desktop\2DAM\TFG\app\TactiqApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\jorge\Desktop\2DAM\TFG\app\TactiqApi\obj\Debug\net8.0\TactiqApi.sourcelink.json
