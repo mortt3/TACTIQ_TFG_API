@@ -43,19 +43,19 @@ namespace TactiqApi.Controllers
                         (x, pab) => new PartidoDTO
                         {
                             IdPartido = x.p.IdPartido,
-                            IdTemporada = x.p.IdTemporada ?? 0,
-                            Jornada = x.p.Jornada ?? 0,
-                            Fecha = x.p.Fecha ?? DateTime.MinValue,
+                            IdTemporada = x.p.IdTemporada,
+                            Jornada = x.p.Jornada,
+                            Fecha = x.p.Fecha,
                             Hora = x.p.Hora,
                             Condicion = x.p.Condicion,
-                            IdEquipoLocal = x.p.IdEquipoLocal ?? 0,
+                            IdEquipoLocal = x.p.IdEquipoLocal,
                             NombreEquipoLocal = x.e.NombreEquipo,
-                            GolesLocal = x.p.GolesLocal ?? 0,
-                            IdEquipoVisitante = x.p.IdEquipoVisitante ?? 0,
+                            GolesLocal = x.p.GolesLocal,
+                            IdEquipoVisitante = x.p.IdEquipoVisitante,
                             NombreEquipoVisitante = x.equipoVisitante.NombreEquipo,
-                            GolesVisitante = x.p.GolesVisitante ?? 0,
+                            GolesVisitante = x.p.GolesVisitante,
                             IdPabellon = x.p.IdPabellon,
-                            NombrePabellon = pab.FirstOrDefault() != null ? pab.FirstOrDefault().NombrePab : "Desconocido"
+                            NombrePabellon = pab.Count() > 0 ? pab.FirstOrDefault().NombrePab : "Desconocido"
                         })
                     .OrderBy(p => p.Jornada)
                     .ToListAsync();
@@ -227,19 +227,19 @@ namespace TactiqApi.Controllers
                         (x, pab) => new PartidoDTO
                         {
                             IdPartido = x.p.IdPartido,
-                            IdTemporada = x.p.IdTemporada ?? 0,
-                            Jornada = x.p.Jornada ?? 0,
-                            Fecha = x.p.Fecha ?? DateTime.MinValue,
+                            IdTemporada = x.p.IdTemporada,
+                            Jornada = x.p.Jornada,
+                            Fecha = x.p.Fecha,
                             Hora = x.p.Hora,
                             Condicion = x.p.Condicion,
-                            IdEquipoLocal = x.p.IdEquipoLocal ?? 0,
+                            IdEquipoLocal = x.p.IdEquipoLocal,
                             NombreEquipoLocal = x.e.NombreEquipo,
-                            GolesLocal = x.p.GolesLocal ?? 0,
-                            IdEquipoVisitante = x.p.IdEquipoVisitante ?? 0,
+                            GolesLocal = x.p.GolesLocal,
+                            IdEquipoVisitante = x.p.IdEquipoVisitante,
                             NombreEquipoVisitante = x.equipoVisitante.NombreEquipo,
-                            GolesVisitante = x.p.GolesVisitante ?? 0,
+                            GolesVisitante = x.p.GolesVisitante,
                             IdPabellon = x.p.IdPabellon,
-                            NombrePabellon = pab.FirstOrDefault() != null ? pab.FirstOrDefault().NombrePab : "Desconocido"
+                            NombrePabellon = pab.Count() > 0 ? pab.FirstOrDefault().NombrePab : "Desconocido"
                         })
                     .ToListAsync();
 

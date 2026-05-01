@@ -179,8 +179,8 @@ namespace TactiqApi.Controllers
                     Dorsal = jugador.Dorsal,
                     Posicion = posicion?.Categoria ?? "Desconocida",
                     IdPartido = idPartido,
-                    Jornada = partido?.Jornada ?? 0,
-                    FechaPartido = partido?.Fecha ?? DateTime.MinValue,
+                    Jornada = partido?.Jornada,
+                    FechaPartido = partido?.Fecha,
                     EquipoRival = GetEquipoRival(partido, jugador.IdEquipo).Result ?? "Desconocido",
                     TiempoDef = estadsBase.TiempoDef,
                     TiempoTot = estadsBase.TiempoTot,
@@ -213,8 +213,8 @@ namespace TactiqApi.Controllers
                         dto.ContraataqueGoles = estadsCampo.ContraataqueGoles;
                         dto.M9Lanzamientos = estadsCampo.M9Lanzamientos;
                         dto.M9Goles = estadsCampo.M9Goles;
-                        dto.ExtremeLanzamientos = estadsCampo.ExtremeLanzamientos;
-                        dto.ExtremeGoles = estadsCampo.ExtremeGoles;
+                        dto.ExtremeLanzamientos = estadsCampo.ExtremoLanzamientos;
+                        dto.ExtremeGoles = estadsCampo.ExtremoGoles;
                         dto.M6Lanzamientos = estadsCampo.M6Lanzamientos;
                         dto.M6Goles = estadsCampo.M6Goles;
                         dto.ValoracionPositivaAsistencia = estadsCampo.ValoracionPositivaAsistencia;

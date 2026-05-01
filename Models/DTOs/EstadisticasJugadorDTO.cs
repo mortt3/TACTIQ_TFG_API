@@ -14,8 +14,8 @@ namespace TactiqApi.Models.DTOs
 
         // --- Datos del Partido ---
         public int IdPartido { get; set; }
-        public int Jornada { get; set; }
-        public DateTime FechaPartido { get; set; }
+        public int? Jornada { get; set; }
+        public DateOnly? FechaPartido { get; set; }
         public string EquipoRival { get; set; }
 
         // --- ESTADÍSTICAS BASE (aplica a todos) ---
